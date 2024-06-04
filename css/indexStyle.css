@@ -1,0 +1,7 @@
+#navbarContainer{
+  width: 95%;
+}
+
+.navbar-nav > li{
+  padding-right:50px;
+}
