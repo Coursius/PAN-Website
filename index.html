@@ -4,24 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Index page</title>
+
   <!-- Bootstrap v5.3.3 CSS -->
   <link href="css/bootstrap/bootstrap.css" rel="stylesheet">
   <link href="css/indexStyle.css" rel="stylesheet">
 </head>
 <body>
+
   <!-- Container for navbar and banner -->
   <header>
-    <div class="banner">
-      <h1>Think Big, Start Small, Be Agile</h1>
-      <nav>
-        <a>Youtube</a>
-        <a>Facebook</a>
-        <a>Instagram</a>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <span class="navbar-brand d-flex align-items-center">
+            <img src="media/icons/PAN.svg" alt="PAN" width="96" height="46.8">
+            <span class="m-3">Think Big, Start Small, Be Agile</span>
+          </span>
+
+          <span>
+            <a class="navbar-brand d-inline-block align-text-top" href="#">
+              <img alt="YouTube" src="media/icons/youtube.svg" width="34" height="34">
+              YouTube
+            </a>
+
+            <a class="navbar-brand d-inline-block align-text-top" href="#">
+              <img alt="Facebook" src="media/icons/facebook.svg" width="34" height="34">
+              Facebook
+            </a>
+
+            <a class="navbar-brand d-inline-block align-text-top" href="#">
+              <img alt="Instagram" src="media/icons/instagram.svg" width="34" height="34">
+              Instagram
+            </a>
+          </span>
+        </div>
       </nav>
-    </div>
+
     <!-- Navigations Bar -->
-    <div class="container-fluid" id="navbarContainer">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between" id="navbarContainer">
+    <div class="container-fluid" style="background-color: #223555;
+">
+      <nav class="navbar navbar-expand-lg justify-content-between" id="navbarContainer">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,6 +66,7 @@
       </nav>
     </div>
   </header>
+
     <!-- Bootstrap v5.3.3 JavaScript -->
     <script src="js/bootstrap/bootstrap.bundle.js"></script>
 </body>
