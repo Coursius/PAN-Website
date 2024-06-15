@@ -16,23 +16,23 @@
     <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
         <span class="navbar-brand d-flex align-items-center">
-          <img src="media/icons/PAN.svg" alt="PAN" width="96" height="46.8">
+          <img src="/media/icons/PAN.svg" alt="PAN" width="96" height="46.8">
           <span class="m-3">Think Big, Start Small, Be Agile</span>
         </span>
 
         <span>
           <a class="navbar-brand d-inline-block align-text-top" href="#">
-            <img alt="YouTube" src="media/icons/youtube.svg" width="34" height="34">
+            <img alt="YouTube" src="/media/icons/youtube.svg" width="34" height="34">
             YouTube
           </a>
 
           <a class="navbar-brand d-inline-block align-text-top" href="#">
-            <img alt="Facebook" src="media/icons/facebook.svg" width="34" height="34">
+            <img alt="Facebook" src="/media/icons/facebook.svg" width="34" height="34">
             Facebook
           </a>
 
           <a class="navbar-brand d-inline-block align-text-top" href="#">
-            <img alt="Instagram" src="media/icons/instagram.svg" width="34" height="34">
+            <img alt="Instagram" src="/media/icons/instagram.svg" width="34" height="34">
             Instagram
           </a>
         </span>
@@ -43,9 +43,21 @@
     <div class="container-fluid" id="nav-custom-background">
       <div class="nav d-flex">
         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        <a class="nav-link" href="#">Training</a>
-        <a class="nav-link" href="#">Online Course</a>
-        <a class="nav-link" href="#">Coaching</a>
+
+        <!-- Dropdown menu -->
+        <div class="dropdown">
+          <button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-offset="0, 0" aria-expanded="false">
+            Services
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="nav-link dropdown-item-text" href="#">Leadership Training</a></li>
+            <li><a class="nav-link dropdown-item-text" href="#">Online Course</a></li>
+            <li id="bottom" ><a class="nav-link dropdown-item-text" href="#">Online Coaching</a></li>
+          </ul>
+        </div>
+
+        <a class="nav-link" href="#">Articles</a>
+        <a class="nav-link" href="#">Get in touch</a>
 
         <a class="btn btn-primary ms-auto" id="login-button" role="button" href="#">Login</a>
       </div>
@@ -53,8 +65,8 @@
   </header>
 
   <!-- First Section -->
-  <div class="container-fluid">
-    <div>
+  <div class="container-fluid" id="section-1">
+    <div class="">
 
     </div>
   </div>
