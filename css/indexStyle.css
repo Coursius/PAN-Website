@@ -23,9 +23,10 @@
   --bs-btn-border-radius: 3px;
 }
 
-li{
-  border-bottom: solid 1px #3B5377;
-}
+/* Rewrite to target the dropdown borders */
+/*li{*/
+/*  border-bottom: solid 1px #3B5377;*/
+/*}*/
 
 li#bottom{
   border-bottom: none;
