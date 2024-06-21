@@ -17,51 +17,74 @@
       <div class="container-fluid">
         <span class="navbar-brand d-flex align-items-center">
           <img src="/media/icons/PAN.svg" alt="PAN" width="96" height="46.8">
-          <span class="m-3">Think Big, Start Small, Be Agile</span>
+          <span class="m-3 d-none d-md-flex">Think Big, Start Small, Be Agile</span>
         </span>
 
         <span>
           <a class="navbar-brand d-inline-block align-text-top" href="#">
             <img alt="YouTube" src="/media/icons/youtube.svg" width="34" height="34">
-            YouTube
+            <span class="d-none d-lg-inline">YouTube</span>
           </a>
 
           <a class="navbar-brand d-inline-block align-text-top" href="#">
             <img alt="Facebook" src="/media/icons/facebook.svg" width="34" height="34">
-            Facebook
+            <span class="d-none d-lg-inline">Facebook</span>
           </a>
 
           <a class="navbar-brand d-inline-block align-text-top" href="#">
             <img alt="Instagram" src="/media/icons/instagram.svg" width="34" height="34">
-            Instagram
+            <span class="d-none d-lg-inline">Instagram</span>
           </a>
         </span>
       </div>
     </nav>
 
     <!-- Navigations Bar -->
-    <div class="container-fluid" id="nav-custom-background">
-      <div class="nav d-flex">
-        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+    <nav class="navbar navbar-expand-sm" id="nav-custom-background">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <!-- Dropdown menu -->
-        <div class="dropdown">
-          <button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-offset="0, 0" aria-expanded="false">
-            Services
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="nav-link dropdown-item-text" href="#">Leadership Training</a></li>
-            <li><a class="nav-link dropdown-item-text" href="#">Online Course</a></li>
-            <li id="bottom" ><a class="nav-link dropdown-item-text" href="#">Online Coaching</a></li>
+        <div class="collapse navbar-collapse" id="collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+
+            <!-- Dropdown menu -->
+            <li class="nav-item dropdown">
+              <button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-offset="0, 0" aria-expanded="false">
+                Services
+              </button>
+              <ul class="dropdown-menu">
+                <li class="nav-item">
+                  <a class="nav-link dropdown-item-text" href="#">Leadership Training</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link dropdown-item-text" href="#">Online Course</a>
+                </li>
+                
+                <li class="nav-item" id="bottom">
+                  <a class="nav-link dropdown-item-text" href="#">Online Coaching</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="navbar-item">
+              <a class="nav-link" href="#">Articles</a>
+            </li>
+
+            <li class="navbar-item">
+              <a class="nav-link" href="#">Get in touch</a>
+            </li>
           </ul>
         </div>
 
-        <a class="nav-link" href="#">Articles</a>
-        <a class="nav-link" href="#">Get in touch</a>
-
         <a class="btn btn-primary ms-auto" id="login-button" role="button" href="#">Login</a>
       </div>
-    </div>
+    </nav>
   </header>
 
   <!-- First Section -->
