@@ -11,92 +11,104 @@
   <!-- Header CSS -->
   <link href="css/headerStyle.css" rel="stylesheet">
 </head>
+
 <body>
+  <div class="d-md-flex d-block flex-column" id="root">
 
-  <!-- Container for banner and navbar -->
-  <header>
-    <nav class="navbar bg-body-tertiary">
-      <div class="mx-sm-5 mx-3 container-fluid">
-        <span class="navbar-brand d-flex align-items-center">
-          <img src="/media/icons/PAN.svg" alt="PAN" width="96" height="46.8">
-          <span class="m-3 d-none d-lg-flex">Think Big, Start Small, Be Agile</span>
-        </span>
+    <!-- Container for banner and navbar -->
+    <header>
+      <nav class="navbar bg-body-tertiary">
+        <div class="mx-sm-5 mx-3 container-fluid">
+          <span class="navbar-brand d-flex align-items-center">
+            <img src="/media/icons/PAN.svg" alt="PAN" width="96" height="46.8">
+            <span class="m-3 d-none d-lg-flex">Think Big, Start Small, Be Agile</span>
+          </span>
 
-        <span>
-          <a class="navbar-brand d-inline-block align-text-top" href="#">
-            <img alt="YouTube" src="/media/icons/youtube.svg" width="34" height="34">
-            <span class="d-none d-lg-inline">YouTube</span>
-          </a>
+          <span>
+            <a class="navbar-brand d-inline-block align-text-top" href="#">
+              <img alt="YouTube" src="/media/icons/youtube.svg" width="34" height="34">
+              <span class="d-none d-lg-inline">YouTube</span>
+            </a>
 
-          <a class="navbar-brand d-inline-block align-text-top" href="#">
-            <img alt="Facebook" src="/media/icons/facebook.svg" width="34" height="34">
-            <span class="d-none d-lg-inline">Facebook</span>
-          </a>
+            <a class="navbar-brand d-inline-block align-text-top" href="#">
+              <img alt="Facebook" src="/media/icons/facebook.svg" width="34" height="34">
+              <span class="d-none d-lg-inline">Facebook</span>
+            </a>
 
-          <a class="navbar-brand d-inline-block align-text-top" href="#">
-            <img alt="Instagram" src="/media/icons/instagram.svg" width="34" height="34">
-            <span class="d-none d-lg-inline">Instagram</span>
-          </a>
-        </span>
-      </div>
-    </nav>
-
-    <!-- Navigations Bar -->
-    <nav class="navbar navbar-expand-md" id="nav-custom-background">
-      <div class="mx-sm-5 me-3 container-fluid">
-        <button title="Toggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <a class="d-flex d-md-none btn btn-primary ms-auto login-button" role="button" href="#">Login</a>
-
-        <div class="collapse navbar-collapse" id="collapse">
-          <ul class="navbar-nav">
-            <li class="nav-item me-xl-5 me-2">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-
-            <!-- Dropdown menu -->
-            <li class="nav-item me-xl-5 me-2 dropdown">
-              <button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Services
-              </button>
-              <ul class="dropdown-menu">
-                <li class="nav-item">
-                  <a class="nav-link dropdown-item-text" href="#">Leadership Training</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link dropdown-item-text" href="#">Online Course</a>
-                </li>
-                
-                <li class="nav-item" id="bottom">
-                  <a class="nav-link dropdown-item-text" href="#">Online Coaching</a>
-                </li>
-              </ul>
-            </li>
-
-            <li class="navbar-item me-xl-5 me-2">
-              <a class="nav-link" href="#">Articles</a>
-            </li>
-
-            <li class="navbar-item me-xl-5 me-2">
-              <a class="nav-link" href="#">Get in touch</a>
-            </li>
-          </ul>
+            <a class="navbar-brand d-inline-block align-text-top" href="#">
+              <img alt="Instagram" src="/media/icons/instagram.svg" width="34" height="34">
+              <span class="d-none d-lg-inline">Instagram</span>
+            </a>
+          </span>
         </div>
+      </nav>
 
-        <a class="d-none d-md-flex btn btn-primary ms-auto login-button" role="button" href="#">Login</a>
+      <!-- Navigations Bar -->
+      <nav class="navbar navbar-expand-md" id="nav-custom-background">
+        <div class="mx-sm-5 me-3 container-fluid">
+          <button title="Toggle" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <a class="d-flex d-md-none btn btn-primary ms-auto login-button" role="button" href="#">Login</a>
+
+          <div class="collapse navbar-collapse" id="collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item me-xl-5 me-2">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+
+              <!-- Dropdown menu -->
+              <li class="nav-item me-xl-5 me-2 dropdown">
+                <button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </button>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-item-text" href="#">Leadership Training</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link dropdown-item-text" href="#">Online Course</a>
+                  </li>
+
+                  <li class="nav-item" id="bottom">
+                    <a class="nav-link dropdown-item-text" href="#">Online Coaching</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="navbar-item me-xl-5 me-2">
+                <a class="nav-link" href="#">Articles</a>
+              </li>
+
+              <li class="navbar-item me-xl-5 me-2">
+                <a class="nav-link" href="#">Get in touch</a>
+              </li>
+            </ul>
+          </div>
+
+          <a class="d-none d-md-flex btn btn-primary ms-auto login-button" role="button" href="#">Login</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- First Section -->
+    <div class="container-fluid" id="section-1">
+      <div class="container pt-5" id="intro">
+        <h1 class="fs-4 fw-bold">Transform & Grow</h1>
+
+        <h2 class="fs-1 fw-bold">Transform Your People to Grow Your Organization</h2>
+
+        <p class="fs-5">
+          highlights that by empowering and enhancing employees' skills,
+          <br>
+          the organization will grow and thrive more effectively.
+        </p>
       </div>
-    </nav>
-  </header>
-
-  <!-- First Section -->
-  <div class="container-fluid" id="section-1">
-    <div class="">
-
     </div>
   </div>
+
 
     <!-- Bootstrap v5.3.3 JavaScript -->
     <script src="js/bootstrap/bootstrap.bundle.js"></script>
